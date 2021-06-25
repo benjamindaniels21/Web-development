@@ -1,0 +1,175 @@
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* #title{
+  background-color: #ff4c68;
+} */
+
+.btn{
+  margin-right: 10px;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 30px;
+}
+
+.nav-link{
+  font-family: Ubuntu;
+}
+
+.navbar-nav{
+font-family: "Montserrat";
+font-size: 1.2rem;
+}
+
+.iphone{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%
+}
+
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Features */
+#features{
+  text-align: center;
+  background-color: white;
+  margin-top: 0;
+  padding-top: 3%;
+  position: relative;
+}
+
+.fas{
+  color: #ef8172;
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Cards */
+#pricing{
+  padding:100px ;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.row{
+  justify-content: center;
+}
+
+@media (max-width: 1028px){
+  .iphone {
+    position: static;
+    width: 50%;
+    padding-top: 30px;
+    transform: rotate(0);
+  }
+  .phone{
+    padding-top: 20px;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
+
+/* call to action */
+#cta {
+ padding-bottom: 40px;
+ text-align: center;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+#footer p{
+   color: grey;
+}
+
+#footer i{
+  padding: 10px;
+}
