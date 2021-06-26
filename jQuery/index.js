@@ -23,13 +23,27 @@
 //   console.log(event.key);
 // });
 
-
 // //change h1 to our keypress
 // $(document).keypress(function(event){
 //   $("h1").text(event.key);
 // });
 
-//
-$(document).on("mouseover",function(){
-  $("h1").css("color", "purple");
-});
+// //change h1 color on mouseover
+// $(document).on("mouseover",function(){
+//   $("h1").css("color", "purple");
+// });
+
+// //add HTML element before an element
+// $("h1").before("<button>New</button>");
+
+// //add HTML element after an element
+// $("h1").after("<button>New</button>");
+
+//prepend an element
+// $("h1").prepend("<button>New</button>");
+
+//append an element
+// $("h1").append("<button>New</button>");
+
+//remove an element
+// $("button").remove();
