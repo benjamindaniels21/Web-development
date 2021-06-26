@@ -47,3 +47,38 @@
 
 //remove an element
 // $("button").remove();
+
+// //use jQuery to hide h1
+// $("button").click(function(){
+//   $("h1").hide();
+// });
+
+// //use jQuery to hide then show h1
+// $("button").click(function(){
+//   $("h1").toggle();
+// });
+
+
+// //use jQuery to toggle fade in and out h1
+// $("button").click(function(){
+//   $("h1").fadeToggle();
+// });
+
+
+// //slide up/down
+// $("button").click(function(){
+//   $("h1").slideToggle();
+// });
+
+
+
+// //animate...can only use things that have numerical value...remember curly braces {}
+// $("button").click(function(){
+//   $("h1").animate({opacity: 0.5});
+// });
+
+
+//custom animation
+$("button").click(function(){
+  $("h1").slideUp().slideDown().animate({opacity: 0.5});
+});
