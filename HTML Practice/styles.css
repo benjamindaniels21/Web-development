@@ -1,20 +1,31 @@
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-li {
-list-style-type: none;
-float: left;
-margin-top: 10px;
-padding: 10px 30px 0px 10px;
-display: inline;
-text-align: center;
+ul{
+  display: flex;
+  justify-content: flex-end;
+  background-color: pink; 
 }
 
-.header{
-margin: 0;
-padding: 0;
-height: 100px;
-background-color: yellow;
+li {
+list-style-type: none;
+text-align: center;
+height: 50px;
+width: 100px;
 }
+
+
+/* .red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+} */
