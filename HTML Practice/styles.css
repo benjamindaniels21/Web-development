@@ -7,7 +7,7 @@
 ul{
   display: flex;
   justify-content: flex-end;
-  background-color: pink; 
+  background-color: pink;
 }
 
 li {
@@ -17,7 +17,10 @@ height: 50px;
 width: 100px;
 }
 
-
+.main-content{
+  background-color: lightBlue;
+  height: 500px
+}
 /* .red {
   background-color: red;
 }
