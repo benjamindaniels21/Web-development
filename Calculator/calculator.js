@@ -31,8 +31,11 @@ app.post("/bmicalculator", function(req, res){
 
   var bmi = 703 * w/ (h * h);
 
-  res.send("Your BMI is " + bmi);
-
+  if (bmi > 28){
+  res.send("Your BMI is " + Math.floor(bmi) + ". You might need to make better choices.");
+} else {
+  res.send("Your BMI is " + Math.floor(bmi) + ". Good work.");
+}
 });
 
 
